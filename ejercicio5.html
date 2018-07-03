@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ejercicio5</title>
+	<style>
+	
+	.row{
+		clear: both;
+	}
+
+	.col-md-1, .col-md-2, .col-md-3,.col-md-4,.col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10{
+			float: left;
+		}
+		@media {
+
+		.col-md-1{
+			width: 10%;
+		}
+		.col-md-2{
+			width: 20%;
+		}
+		.col-md-3{
+			width: 33%;
+		}
+		.col-md-10{
+			width: 100%;
+		}
+		}
+		.img-responsive{
+			max-width: 50%;
+			margin-top: 20px;
+			display:block;
+			margin:auto;
+		}
+	
+	.header{
+	
+		height: 200px;
+		background-color: green;
+		text-align: center;
+		color: white;
+	}		
+		p{
+			padding: 20px;
+
+		}
+	
+	</style>
+</head>
+<body>
+	<div class="row">
+		<div class="col-md-10 header">
+			<h1>Hola!!</h1>
+			<h1> Este es un ejercicio de grillas..</h1>
+		</div>
+	</div>
+	<div class="row">
+	<div class="col-md-3 left">
+			<img src="imagen1.jpg" class="img-responsive">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat.</p>
+	</div>
+		<div class="col-md-3 main">
+			<img src="imagen1.jpg" class="img-responsive">
+		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		</div>
+		
+		<div class="col-md-3 right">
+			<img src="imagen1.jpg" class="img-responsive">
+		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			
+		</div>
+	</div>
+	</div>
+	</div>
+</body>
+</html>
